@@ -1,0 +1,145 @@
+* {
+  font-family: "Poppins", sans-serif;
+  box-sizing: border-box;
+  color: #222222;
+}
+
+body {
+  background-color: #e5e5e5;
+  margin: 0;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+body::after {
+  content: "soonzero";
+  color: #222222;
+  margin-top: 40px;
+  font-weight: 600;
+}
+
+.container {
+  width: 550px;
+  background-color: white;
+  border-radius: 8.95px;
+}
+
+nav {
+  background-color: white;
+  border-radius: 8.95px 8.95px 0 0;
+  box-shadow: 0 3px 7.5px rgba(0, 0, 0, 0.1);
+  height: 70px;
+  display: flex;
+  justify-content: space-between;
+}
+
+nav > img {
+  padding: 22px 30px;
+  width: 142px;
+}
+
+nav > ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+nav > ul > li {
+  margin-right: 30px;
+  font-size: 14px;
+  font-weight: 600;
+  color: #ff585d;
+  border-bottom: 2px solid #ff585d;
+  cursor: pointer;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 26px 0 0 0;
+}
+
+section > img {
+  height: 232px;
+  width: auto;
+  padding: 0 77px;
+  margin-bottom: 32px;
+}
+
+section div {
+  padding: 0 36px;
+  margin-bottom: 49px;
+  line-height: 1.1;
+}
+
+.hero--header {
+  margin-bottom: 16px;
+  color: black;
+}
+
+.cards {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  overflow: scroll;
+  padding: 0 0 30px 36px;
+}
+
+.card {
+  position: relative;
+  font-size: 12px;
+  line-height: 1.1;
+  margin-right: 18px;
+}
+
+.card--image {
+  width: 176px;
+  height: 235px;
+  margin-bottom: 9px;
+  border-radius: 9px;
+}
+
+.card--status {
+  position: absolute;
+  width: 61px;
+  height: 20px;
+  top: 6px;
+  left: 6px;
+  background-color: white;
+  padding: 5px 6px;
+  font-size: 10.24px;
+  border-radius: 2px;
+  text-align: center;
+}
+
+.card--stats {
+  display: flex;
+  align-items: center;
+  margin-bottom: 8px;
+  font-size: 12px;
+}
+
+.card--stats > span {
+  padding: 0 1px;
+}
+
+.card--star {
+  width: 16px;
+  height: 14px;
+}
+
+.gray {
+  color: #918e9b;
+}
+
+.card > p {
+  margin: 0;
+  margin-bottom: 8px;
+}
