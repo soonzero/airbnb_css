@@ -106,7 +106,7 @@ section div {
   border-radius: 9px;
 }
 
-.card--status {
+.card--badge {
   position: absolute;
   width: 61px;
   height: 20px;
